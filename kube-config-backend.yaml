@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: avenger-backend
-        image: gcr.io/dtc-user18/internal-image:v1.0.0
+        image: gcr.io/devops-bootcamp-280910/internal-image:v1.0.0
         env:
         - name: PORT
           value: "8080"
