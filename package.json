@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "test": "nyc mocha --exit",
-    "cibuild": "npm test --single-run --cc && npm build --prod --no-progress"
+    "cibuild": "npm test --single-run --cc && npm build --prod --no-progress",
+    "sonar": "sonar-scanner"
   },
   "keywords": [],
   "author": "",
