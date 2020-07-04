@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "nyc mocha --exit",
-    "sonar": "sonar-scanner"
+    "sonar": "sonar-project.properties"
   },
   "keywords": [],
   "author": "",
