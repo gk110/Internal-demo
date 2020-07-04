@@ -20,6 +20,6 @@
     "mocha": "^7.1.2",
     "nyc": "^14.1.1",
     "supertest": "^4.0.2",
-    "sonar-scanner" : "^2.4"
+    "sonarqube-scanner": "^2.0.2"
   }
 }
