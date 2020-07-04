@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "nyc mocha --exit",
-    "cibuild": "ng test --single-run --cc && ng build --prod --no-progress"
+    "cibuild": "npm test --single-run --cc && ng build --prod --no-progress"
   },
   "keywords": [],
   "author": "",
